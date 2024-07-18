@@ -1,0 +1,25 @@
+.app-download{
+    margin: auto auto;
+    margin-top: 100px;
+    font-size: max(3vw,20px);
+    text-align: center;
+    font-weight: 500;
+}
+
+.app-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap:max(2vw,10px);
+    margin-top: 40px;
+}
+
+.app-download-platforms img{
+    width:max(30vw,120px);
+    max-width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.app-download-platforms img:hover{
+    transform: scale(1.05);/*he transform: scale(1.05); CSS property is used to scale an element slightly larger than its original size. The scale function of the transform property takes one or two values that represent the scaling factor for the element. In this case, 1.05 means the element will be scaled to 105% of its original size, both horizontally and vertically.*/
+}
